@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DojoWeather</h1>
+            <div>
+                <ul>
+                    <li onclick="displayMessage(this)">Burbank</li>
+                    <li onclick="displayMessage(this)">Chicago</li>
+                    <li onclick="displayMessage(this)">Dallas</li>
+                </ul>
+            </div>
+        </div>
+        <div class="component">
+            <div class="under-header">
+                <h1>San Jose</h1>
+                <div>
+                    <label>Show temperature in</label>
+                    <select name="measure" onchange="changeDegree(this)">
+                    <option>℃</option>
+                    <option>°F</option>
+                </select>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="weather-change">
+                    <h1>Today</h1>
+                    <img src="assets/some_rain.png" alt="SomeRain image">
+                    <p>some rain</p>
+                    <div>
+                        <span  class="change-color numbers">24</span>
+                        <span  class="change-color2 numbers">18</span>
+                    </div>
+                </div>
+                <div class="weather-change">
+                    <h1>Tomorrow</h1>
+                    <img src="assets/some_sun.png" alt="SomeSun image">
+                    <p>some sun</p>
+                    <div>
+                        <span class="change-color numbers">27</span>
+                        <span class="change-color2 numbers">19</span>
+                    </div>
+                </div>
+                <div class="weather-change">
+                    <h1>Friday</h1>
+                    <img src="assets/some_clouds.png" alt="SomeClouds image">
+                    <p>some clouds</p>
+                    <div>
+                        <span class="change-color numbers">21</span>
+                        <span class="change-color2 numbers">16</span>
+                    </div>
+                </div>
+                <div class="weather-change">
+                    <h1>Saturday</h1>
+                    <img src="assets/some_sun.png" alt="SomeSun image">
+                    <p>some sun</p>
+                    <div>
+                        <span class="change-color numbers">26</span>
+                        <span class="change-color2 numbers">21</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie-policy">
+                <img src="assets/cookie.png" alt="Cookie image">
+                <div>
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personlize<br>content and ads,
+                       to provide social media features and to<br>analyse our traffic. <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="removeCookiePolicy()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

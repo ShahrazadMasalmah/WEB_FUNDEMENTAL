@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    color: #00ffff;
+}
+
+h1 span {
+    color: white;
+}
+
+h2 {
+    background-color: #663399;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin: -13px 0;
+}
+
+h3 {
+    background-color: #9fc5f8;
+    color: #20124d;
+    text-align: right;
+    text-decoration: underline;
+}

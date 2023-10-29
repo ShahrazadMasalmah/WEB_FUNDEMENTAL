@@ -1,0 +1,79 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Creating a styling Button*/
+  .btn {
+    background-color: #2b78e4;
+    color: #eff5fd;
+    box-shadow: 3px 4px 3px black;
+    width: 130px;
+    height: 33px;
+}
+
+/* Creating a row to dispklay the text by flex*/
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.col {
+    width: 230px;
+    height: 30px;
+    background-color: cadetblue;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    flex: 2;
+}
+
+.nav {
+    width: 900px;
+    height: 55px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.nav-title {
+    color: #f9f9f9;
+    width: 450px;
+    margin: 0 0 0 20px;
+    font-family: Calibri;
+}
+
+.nav-links {
+    display: contents;
+    justify-items: auto;
+}
+
+/* Creating styling image by position*/
+.header img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 62px;
+    left: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* Creating a background image*/
+.left-side2 {
+    background-image: url("images/ad_background.png");
+    width: auto;
+    height: 275px;
+}

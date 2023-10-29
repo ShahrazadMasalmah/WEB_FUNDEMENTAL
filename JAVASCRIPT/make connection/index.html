@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <title>Profile Page</title>
+</head>
+    <body>
+        <div class="page">
+            <div class="navbar-container">
+                <h1>Profile</h1>
+                <div class="Navbar">
+                    <ul class="nav-links">
+                        <li><a href="home">Home</a></li>
+                        <li><a href="my profile"><h5 class="mp">My Profile</h5></a></li>
+                        <li><a href="find conections">Find Connections</a></li>
+                    </ul>
+                </div>
+                <button class="button"><a href="sign out">Sign Out</a></button>
+            </div>
+            <div class="body-content">
+                <div class="left-nav">
+                    <!-- 1 -->
+                    <div class="user-card">
+                            <div class="background">
+                                <div class="pic">
+                                <img class="avatar" src="images/jane-m.jpg" alt="user-circle">
+                                </div>
+                                <div class="head">
+                                    <h1 id="edito">Jane Doe</h1>
+                                </div>
+                                <div class="name">  
+                                    <img class="MM" src="image/map-marker.png" alt="map-marker">
+                                    <h3> Seattle</h3>
+                                </div> 
+                                <div class="info">
+                                    <p>Developer | Engineer | Proplem Solver</p>
+                                    <p> Master of shadows and the Internet !</p>
+                                </div>
+                                <div class="gear">
+                                    <img class="MM" src="image/gear.png" alt="gear">
+                                    <p><a onclick="changename()" href="#" > edit profile</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="education">
+                        <div class="edu-back">
+                            <h3>Education</h3>
+                        </div>
+                        <div class="coding">
+                            <h4>Coding Dojo - full stack bootcamp</h4>
+                            <p id="p-gray">D3c2019 -mar 2020</p>
+                            <p>Triple black belt in Python,MERN,and C#...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <!-- 3 -->
+                    <div class="conection-requests">
+                        <div class="top-conection-request">
+                            <span class="number2">
+                            <img class="num2" src="icons/number-2-brush-stroke-hand-drawn-vector-font-style_53876-177862.avif" alt="2">
+                            <h3>Conection Request</h3>
+                            </span>
+                        </div>
+                        <div class="content-c-r">
+                            <span class="start">
+                                <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
+                                <p>Todd E</p>
+                            </span>
+                            <span class="end">
+                                <img onclick="accept()"  src="icons/accept-circle.png" alt="accept" class="avatar-s">
+                                <img onclick="removeuser()" src="icons/close-circle.png" alt="close" class="avatar-s">
+                            </span>
+                        </div>
+                        <div class="content-c-r2">
+                            <span class="start">
+                                <img src="images/phil-s.jpg" alt="phil-s" class="avatar-s">
+                                <p>Phil K</p>
+                            </span>
+                            <span class="end">
+                                <img onclick="accept()" src="icons/accept-circle.png" alt="accept" class="avatar-s">
+                                <img onclick="removeuser2()" src="icons/close-circle.png" alt="close" class="avatar-s">
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="your-conection">
+                        <div class="top-conection-request">
+                            <span class="number2">
+                            <!-- question -->
+                            <h3><span id="add1"> 500 </span>     Your Conections</h3>
+                            </span>
+                        </div>
+                        <div class="content-c-r">
+                            <span class="start">
+                                <img src="images/adrien-s.jpg" alt="todd" class="avatar-s">
+                                <p>Adrien D</p>
+                            </span>
+                        </div>
+                        <div class="content-c-r2">
+                            <span class="start">
+                                <img src="images/anne-s.jpg" alt="phil-s" class="avatar-s">
+                                <p>Anne J</p>
+                            </span>
+                        </div>    
+                        <div class="content-c-r">
+                                <span class="start">
+                                    <img src="images/alayne-s.jpg" alt="phil-s" class="avatar-s">
+                                    <p>Alayne T</p>
+                                </span>
+                        </div>
+                        <div class="content-c-r">
+                            <span class="start">
+                                <img src="images/arry-s.jpg" alt="phil-s" class="avatar-s">
+                                <p>Arry Y</p>
+                            </span>
+                        </div>
+                        <div class="view-more">
+                            <span class="start">
+                                <p id="view-more"><a href="#">View More</p></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+</html>

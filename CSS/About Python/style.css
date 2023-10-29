@@ -1,0 +1,248 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 970px;
+    height: 950px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 400px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#size{
+    margin-right: 14px;
+}
+
+#size p{
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 12px;
+    color: #b09e17;
+    margin-left: 70px;
+}
+
+#text {
+    color: #e9edf1;
+}
+
+#text2 {
+    color: #0b1824;
+}
+
+.text3 {
+    text-decoration: underline;
+}
+
+.go-search {
+    background-color: #444444;
+    width: 230px;
+    height: 45px;
+    padding: 11px 0 0 37px;
+    border-radius: 12px;
+    box-shadow: 2px 2px black;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 28px;
+    text-align: center;
+    color: #b5b5b5;
+}
+
+input[type="button"] {
+    background-color: #245076;
+    color: #d8e0e7;
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #d8e0e7;;
+}
+
+.Navbar ul {
+    width: 790px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #477ead;
+    color: #fefeff;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px black;
+    margin-left: 100px;
+}
+
+.subcontainer {
+    background-color: #245076;
+    width: auto;
+    height: 530px;
+    border-bottom: 2px solid black;
+}
+
+.list {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px; 
+    margin-bottom: 60px;  
+}
+
+.list ul {
+    list-style: inside;
+    color: #f1cb33;
+}
+
+.list a {
+    color: #f3f6f7;
+    font-size: 17px;
+}
+
+.list li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.explain {
+    text-align: center;
+    width: 542px;
+    margin-left: -45px;
+}
+
+#python {
+    font-size: 14px;
+    color: #e6eaef;
+}
+
+.python2 {
+    font-style: italic;
+    color: #e7c536;
+    font-size: 17px;
+    margin-bottom: -2px;
+}
+
+#python3 {
+    color: #f4f6f8;
+}
+
+.subcontainer2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#color1, #color2 {
+    height: 3px;
+    background-color: #73a7d5;
+    margin-top: 12px;
+    text-align: center;
+}
+
+#color1 {
+    width: 430px;
+    margin-left: -20px;
+}
+
+#color2 {
+    width: 380px;
+    margin-left: -35px;
+}
+
+
+.start {
+    text-align: center;
+    width: 363px;
+    height: 285px;
+}
+
+.getstart {
+    width: 272px;
+    height: 300px;
+}
+
+.getstart h4, .application h4 {
+    margin-top: 5px;
+    margin-bottom: -8px;
+}
+
+.application {
+    text-align: center;
+    width: 267px;
+}
+
+.guide {
+    font-size: 14px;
+    margin-bottom: -13px;
+}
+
+#PyPI {
+    font-size: 11px;
+    color: #80b0d9;
+}
+.list2 li span{
+    color: #76a8d6;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    
+}
+
+.list2 li {
+    list-style: square;
+    color: black;
+    margin-bottom: 3px;
+   /* margin-right: 70px;*/
+}
+
+.subcontainer3 {
+    width: auto;
+    height: 90px;
+    background-color: #2a608e;
+}
+
+#bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    color: #7aaddb;
+    font-size: 17px;
+    margin-top: -43px;
+    padding: 19px;
+}
+
+#bottom ul li {
+    margin-top: 25px;
+}
+
+#copy{
+    display: block;
+    margin-top: -25px;
+}
+
+#copy p {
+    
+    text-align: center;
+    font-size: 8px;
+    color: #7aaddb;
+}
+
+#move {
+    margin-left: 150px;
+}
+
+#move2 {
+    margin-right: 150px;
+}

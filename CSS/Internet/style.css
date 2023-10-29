@@ -1,0 +1,244 @@
+.container {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fbfbfb;
+}
+
+.top {
+    background-color: #ffffff;
+}
+
+#globe {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.top h1 {
+    color: #474747;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: -33px;
+    font-size: 40px;
+}
+
+#net {
+    color: #22659e;
+}
+
+#web {
+    width: auto;
+    height: 33px;
+    color: #ffffff;
+    background-color: #447aa8;
+    display: block;
+    margin: 0;
+    font-size: 27px;
+    padding: 10px 15px;
+
+}
+
+.connect {
+    display: flex;
+}
+
+.subcontainer {
+    width: 190px;
+    height: 300px;
+    /*background-color: blueviolet;*/
+}
+
+.left-side {
+    height: 175px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.left-side p {
+    font-size: 13px;
+    margin-top: -12px;
+}
+
+#internet {
+    color: #d9251e;
+}
+
+.inter {
+    color: #2869a0;
+}
+
+#watch {
+    background-color: #437fb1;
+    color: #fbfdfe;
+    border-radius: 7px;
+    box-shadow: 1px 1px black;
+    text-align: center;
+    width: 175px;
+    height: 33px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#more {
+    background-color: #ed9527;
+    color: #fefcf9;
+    border-radius: 7px;
+    box-shadow: 1px 1px black;
+    text-align: center;
+    width: 175px;
+    margin-left: 5px;
+    height: 33px;
+    margin-top: 3px;
+}
+
+.left-side2 {
+    background-image: url("images/ad_background.png");
+    width: auto;
+    height: 275px;
+}
+
+#ninja {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    margin-left: 47px;
+}
+
+.left-side2 h2 {
+    color: #fefefe;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 4px;
+    padding-top: 15px;
+}
+
+#learn {
+    background-color: #4ecbde;
+    color: #fbfefe;
+    border-radius: 6px;
+    box-shadow: 1px 1px black;
+    width: 158px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.subcontainer2 {
+    width: 650px;
+    margin-left: 60px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b5b5b5;
+    width: 640px;
+    height: 75px;
+}
+
+.header {
+    margin-top: 5px;
+}
+
+#home {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+}
+
+#DNS{
+    color: #22659e;
+    display: inline;
+    font-size: 16px;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#phone {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.date-num {
+    font-size: 10px;
+    margin: 0;
+}
+
+.info h1 {
+   margin: 0;
+   color: #00c0df;
+}
+
+.define {
+    width: 630px;
+}
+
+h3 {
+    color: #22659e;
+    margin-bottom: -12px;
+}
+
+.changecolor {
+    color: #03a0b5;
+}
+
+#client-server {
+    width: 260px;
+    height: 110px;
+    position: relative;
+    left: 190px;
+}
+
+.define li {
+    font-size: 15px;
+    padding: 3px 0;
+}
+
+ul {
+    margin-top: -10px;
+}
+
+.Big3 {
+    display: flex;
+    border: 4px solid #0085e0;
+    width: 640px;
+}
+
+.conclusion {
+    margin-left: 30px;
+}
+
+#HTML {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#process, #process2 {
+    font-size: 15px;
+}
+
+#process2 {
+    margin-top: -10px;
+}
+
+#process2 a {
+    color: #11a1b6;
+}
+
+.conclusion h3 {
+    margin-top: 10px;
+}

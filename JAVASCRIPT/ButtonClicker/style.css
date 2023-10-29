@@ -1,0 +1,92 @@
+.container {
+    margin: 0 auto;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cccccc;
+    width: 639px;
+    margin: 0 auto;
+}
+
+#text {
+    width: 300px;
+    height: 30px;
+    color: #afafaf;
+}
+
+#button {
+    color: #f7fafe;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black;
+    width: 54px;
+    height: 30px;
+}
+
+.style {
+    display: flex;
+    justify-content: center;
+    margin-left: 26px;
+}
+
+.define-ninja, .define-ninja2 {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 140px;
+    margin: 25px 0;
+}
+
+.skill-zen {
+    width: 200px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.likes {
+    text-align: center;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-top: -13px;
+}
+
+.ninja {
+    margin-bottom: -10px;
+}
+
+.highlight {
+    text-decoration: underline;
+    color: #1c619c;
+}
+
+.buttonlike {
+    width: 62px;
+    height: 25px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
+
+.add-definition {
+    border: 2px solid black;
+    height: 127px;
+    width: 175px;
+    margin: 25px;
+    padding: 0 20px;
+}
+
+.add-definition p {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#definition {
+     width: 170px;
+     height: 34px;
+     background-color: #93c47d;
+     box-shadow: 3px 3px black;
+     margin-top: -12px;
+}

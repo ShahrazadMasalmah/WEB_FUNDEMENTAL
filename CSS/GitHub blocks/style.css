@@ -1,0 +1,56 @@
+* img {
+    height: 200px;
+}
+.container {
+    background-color: #e1e1ff;
+    margin: 0 auto;
+    width: 850px;
+    height: 900px;
+}
+
+.head {
+    height: 20px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.row1 {
+    background-color: #4ec6e2;
+    height: 240px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row1 img, .row3 img {
+    margin: 15px 30px;
+}
+
+.row2 {
+    background-color:#d89cad;
+    height: 240px;
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    background-color: #fcfcff;
+    height: 240px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container p {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.container p a {
+    color: #83c4f9;
+}

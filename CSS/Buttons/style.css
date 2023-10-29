@@ -1,0 +1,32 @@
+.container {
+    margin: 50px;
+}
+
+.search {
+   color: #119b9d;
+   background-color: #f5f5f5;
+   border: 2px solid #119b9d;
+   border-radius: 11px 11px;
+   width: 115px;
+   height: 25px;
+   font-weight: bold;
+}
+
+.add {
+    background-color: #00d1b2;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    margin: 10px 10px 10px 0;
+    font-size: 20px;
+}
+
+.create {
+    background-color: #2b78e4;
+    color: #eff5fd;
+    box-shadow: 3px 4px 3px black;
+    width: 130px;
+    height: 33px;
+}

@@ -1,0 +1,283 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 950px;
+    height: 800px;
+    text-align: center;
+    font-family: Calibri;
+}
+
+.nav {
+    width: 900px;
+    height: 55px;
+    background-color: #000000;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li h2 {
+    color: #f9f9f9;
+    width: 50px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: contents;
+}
+
+li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: #bababa;
+}
+
+.active {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: #ffffff;
+    margin: 0 20px 0 0;
+    border: 2px solid black;
+    font-family: Arial;
+    width: 70px;
+    margin-left: 180px;
+}
+
+.subcontainer {
+    width: 400px;
+    height: 367px;
+    display: inline-block;
+    text-align: initial;
+}
+
+.header {
+    width: auto;
+    height: 100px;
+    background-color: #17a2b8;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 48px;
+    left: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+.profile {
+    padding: 25px 30px;
+    border: 3px solid #cccccc;
+    border-top: 0;
+    height: 170px;
+    background-color: white; 
+}
+
+.profile h1 {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.profile h1, p, .profile a {
+    font-family: Cambria;
+}
+
+.map {
+    width: 10px;
+    height: 15px;
+    position: relative;
+    top: 1px;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gear {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+}
+
+.profile a {
+    margin-left: 1px;
+    color: #0c9ad5;
+}
+
+.subcontainer1 {
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.acceptclose {
+    width: 30px;
+    height: 30px;
+}
+
+#two {
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.head h3, .head2 h3 {
+    margin-left: 10px;
+}
+
+.Todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    margin-bottom: -8px;
+}
+
+.Phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.toddphil {
+    margin-right: 34px;
+}
+
+.head, .head2 {
+    background-color: #333333;
+    display: block;
+}
+
+.head h3, .head2 h3{
+    display: inline-block;
+    color: #fefefe;
+}
+
+.right-side {
+    height: 197px;
+    background-color: white;
+}
+
+#five {
+    border: 1px solid black;
+    background-color: #cccccc;
+    border-radius: 90%;
+    display: inline-block;
+    width: 53px;
+    height: 20px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.text2 {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.border {
+    border: 3px solid #cccccc;
+    height: 122px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 12px 0 12px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.people, .view, .education {
+    border: 3px solid #cccccc;
+}
+
+.view {
+    background-color: white;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 13px;
+    text-align: initial;
+    border-top: 3px;
+}
+
+.view a {
+    color: #0c5394;
+}
+
+.right-side2 {
+    margin-top: 20px ;
+}
+
+.subcontainer2 {
+    width: 400px;
+    height: 153px;
+    text-align: initial;
+    margin-left: 138px;
+    margin-top: -13px;
+}
+
+.head3 {
+    background-color: #333333;
+    padding: 1px 0 1px 30px;
+}
+.head3 h3 {
+    color: #fefefe;
+}
+
+.education {
+    padding-top: 1px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+#date {
+    color: #666666;
+}
+
+.education h5 {
+    margin-top: 10px;
+    margin-bottom: -7px;
+    font-size: 20px;
+}
+
+.education p {
+    margin-bottom: -10px;
+}

@@ -1,0 +1,86 @@
+.container {
+    margin: 0 auto;
+}
+
+#network {
+    background-color: #000000;
+    color: #ffffff;
+    width: 700px;
+    height: 42px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+#feed {
+    text-align: center;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-side {
+    border: 2px solid black;
+    width: 130px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17px;
+}
+
+a {
+    color: #0c5595;
+    font-size: 19px;
+}
+
+.left-side img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.left-side p {
+    font-size: 23px;
+}
+
+.users {
+    border: 2px solid black;
+    width: 330px;
+    height: 120px;
+    margin: 0 0 15px 15px;
+}
+
+.likeButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.likeButton div {
+    display: inherit;
+    flex:2
+}
+
+.likeButton button {
+    width: 50px;
+    height: 30px;
+    background-color: #ffd966;
+    box-shadow: 4px 3px 1px black;
+}
+
+#number, #number2, #number3 {
+    margin-right: 0;
+}
+
+
+.users span, .users p {
+    margin: 7px 15px 10px 15px;
+    font-size: 19px;
+}
+
+.likeButton span {
+    flex: 1;
+}

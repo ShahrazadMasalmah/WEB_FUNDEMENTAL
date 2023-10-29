@@ -1,0 +1,100 @@
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header {
+    background-color: #9fc5f8;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    width: 830px;
+    margin: 0 auto;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    font-size: 24px;
+    margin: 10px 30px;
+}
+
+.component {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.under-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    width: 720px;
+    margin-left: 15px;
+}
+
+.under-header h1 {
+    margin: 14px 0;
+}
+
+.middle {
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    margin-top: -12px;
+}
+
+.weather-change {
+    width: 160px;
+    height: 300px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.weather-change img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.weather-change p {
+    margin-top: 10px;
+}
+
+.weather-change div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.change-color {
+    color: #cf2a27;
+    font-weight: bold;
+}
+
+.change-color2 {
+    color: #2b78e4;
+    font-weight: bold;
+}
+
+.cookie-policy {
+    border: 2px solid black;
+    width: 720px;
+    margin-left: 13px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eeeeee;
+}
+
+
+.cookie-policy button {
+    width: 90px;
+    height: 25px;
+    background-color: #9fc5f8;
+    box-shadow: 5px 2px 1px black;
+
+}
